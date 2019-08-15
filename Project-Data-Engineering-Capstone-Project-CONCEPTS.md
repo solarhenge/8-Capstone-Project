@@ -119,6 +119,6 @@ To help guide your project, we've broken it down into a series of steps. Detaile
 * Step 4: Run ETL to Model the Data
 * Step 5: Complete Project Write Up
 
-And make sure to review your own project using the Project Rubric.
+And make sure to review your own project using the [Project Rubric](Project-Data-Engineering-Capstone-Project-RUBRIC.md).
 
 You have not submitted the project yet
