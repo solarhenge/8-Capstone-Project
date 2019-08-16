@@ -104,6 +104,9 @@ You can access the temperature data in a folder with the following path: `../../
 fname = '../../data2/GlobalLandTemperaturesByCity.csv'
 df = pd.read_csv(fname)
 ```
+
+# 4. Project Workspace
+
 # 5. Project: Data Engineering Capstone Project
 ## Project Submission
 ### Data Engineering Capstone Project
