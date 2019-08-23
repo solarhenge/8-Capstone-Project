@@ -51,7 +51,7 @@ Since the scope of the project will be highly dependent on the data, these two t
   * If the pipelines were run on a daily basis by 7am.
   * If the database needed to be accessed by 100+ people.
 ## Rubric
-In the Project Rubric, you'll see more detail about the requirements. Use the rubric to assess your own project before you submit to Udacity for review. As with other projects, Udacity reviewers will use this rubric to assess your project and provide feedback. If your project does not meet specifications, you can make changes and resubmit.
+In the [Project Rubric](Project-Data-Engineering-Capstone-Project-RUBRIC.md), you'll see more detail about the requirements. Use the rubric to assess your own project before you submit to Udacity for review. As with other projects, Udacity reviewers will use this rubric to assess your project and provide feedback. If your project does not meet specifications, you can make changes and resubmit.
 
 # 2. Project Resources
 
@@ -106,6 +106,7 @@ df = pd.read_csv(fname)
 ```
 
 # 4. Project Workspace
+![Project Workspace](Annotation 2019-08-23 171513.png)
 
 # 5. Project: Data Engineering Capstone Project
 ## Project Submission
