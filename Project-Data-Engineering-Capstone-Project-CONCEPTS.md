@@ -106,7 +106,7 @@ df = pd.read_csv(fname)
 ```
 
 # 4. Project Workspace
-![Project Workspace](Annotation 2019-08-23 171513.png)
+![alt text](Annotation-2019-08-23-171513.png)
 
 # 5. Project: Data Engineering Capstone Project
 ## Project Submission
