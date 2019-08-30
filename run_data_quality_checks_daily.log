@@ -1,0 +1,10 @@
+*** Reading local file: /home/jordan/airflow/logs/avalon/run_data_quality_checks/2016-04-01T00:00:00+00:00/2.log
+
+*** one partition
+
+[2019-08-28 21:14:53,937] {logging_mixin.py:95} INFO - [[34m2019-08-28 21:14:53,937[0m] {[34mdata_quality.py:[0m60} INFO[0m - SUCCESS - Data quality check passed. fct_cic contains 219268 records[0m
+[2019-08-28 21:14:53,937] {logging_mixin.py:95} INFO - [[34m2019-08-28 21:14:53,937[0m] {[34mdata_quality.py:[0m65} INFO[0m - ERROR - Data quality check failed. select count(distinct a.i94addr) from fct_cic a left outer join dim_addr b on a.i94addr = b.i94addr where 1 = 1 and b.i94addr is null returned 112 rows[0m
+[2019-08-28 21:14:53,938] {logging_mixin.py:95} INFO - [[34m2019-08-28 21:14:53,937[0m] {[34mdata_quality.py:[0m65} INFO[0m - ERROR - Data quality check failed. select count(distinct a.airline) from fct_cic a left outer join dim_airline b on a.airline = b.airline where 1 = 1 and b.airline is null returned 116 rows[0m
+[2019-08-28 21:14:53,938] {logging_mixin.py:95} INFO - [[34m2019-08-28 21:14:53,938[0m] {[34mdata_quality.py:[0m65} INFO[0m - ERROR - Data quality check failed. select count(distinct a.i94cit) from fct_cic a left outer join dim_cnty b on a.i94cit = b.i94cnty where 1 = 1 and b.i94cnty is null returned 11 rows[0m
+[2019-08-28 21:14:53,938] {logging_mixin.py:95} INFO - [[34m2019-08-28 21:14:53,938[0m] {[34mdata_quality.py:[0m65} INFO[0m - ERROR - Data quality check failed. select count(distinct a.i94port) from fct_cic a left outer join dim_port b on a.i94port = b.i94port where 1 = 1 and b.i94port is null returned 31 rows[0m
+[2019-08-28 21:14:53,938] {taskinstance.py:1047} ERROR - Data quality check failed.
