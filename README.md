@@ -122,7 +122,7 @@ Some data cleansing
 * Create the etl pipeline and the data model
   * The business intelligence dimensional data model is as follows: ![alt text](capstone.png)
 
-  * The data dictionary can be found at [All Tables Details 5](./AllTablesDetails_5_index.html)
+  * The data dictionary can be found at [All Tables Details 13](AllTablesDetails_13.pdf)
 
   * The data pipeline tool that I have chosen to use is Apache Airflow. Here is the Airflow Graph View... ![alt text](Graph-View.png)
 
