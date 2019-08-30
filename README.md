@@ -56,7 +56,8 @@ The data contains a fact/measure of passenger counts which is a good candidate f
 
 ### I created an AWS bucket to store all source files that were used in the capstone project
 
-I created a bucket called solarhenge. Under the solarhenge bucket I created individual dim and stg folders. 
+I created a bucket called solarhenge. Under the solarhenge bucket I created individual dim and stg folders.
+
 |s3_prefix|s3_bucket|s3_key|
 |---------|---------|------|
 |s3:/|solarhenge|dim_addr|
